@@ -15,7 +15,7 @@ body {
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    /* padding: 16px 0 0 16px; */
 }
 
 .logo {
@@ -44,6 +44,9 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+    display:flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .library{
@@ -66,6 +69,7 @@ body {
 
 .library .library__button{
     display:flex;
+    align-items: center;
     margin-right: 10px;
     color:#b3b3b3;
     background-color: transparent;
